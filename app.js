@@ -1,5 +1,6 @@
 const express = require("express");
 var app = express();
+const db = require("./models/db.js")
 
 var pessoas = [
     {
